@@ -1,9 +1,7 @@
 
 # Expense Management System using MERN Stack
 
-### Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/
-
-### Vercel Link: https://expense-tracker-app-three-beryl.vercel.app/
+### Vercel Website Link: https://expense-tracker-dusky-three.vercel.app/
 
 ## Project Description:
 
@@ -73,18 +71,19 @@ Support attaching receipts or other relevant documents to expense entries.
     frontend has deployed on AWS and backend on Render.
 
     Set up Continuous Integration and Continuous Deployment (CI/CD) pipelines for automated builds and deployments.
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Priyanshu9898/Expense-Tracker-App
+  git clone https://github.com/mohitnalluri/expense-tracker
 ```
 
 Go to the project directory
 
 ```bash
-  cd Expense-Tracker-App
+  cd expense-tracker
 ```
 
 Go to the frontend directory and Install dependencies
