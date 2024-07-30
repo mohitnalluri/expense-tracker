@@ -17,6 +17,7 @@ connectDB();
 
 const allowedOrigins = [
   "http://localhost:3000",
+   "https://exquisite-pavlova-ec673d.netlify.app"
  // "https://main.d1sj7cd70hlter.amplifyapp.com",
  // "https://expense-tracker-app-three-beryl.vercel.app",
   
@@ -28,8 +29,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: allowedOrigins,
-   // origin: 'http://localhost:3000',
-  // allowedHeaders: ["Content-Type", "Authorization", "Access-Control-Allow-Methods", "Access-Control-Request-Headers"],
+   
+   //allowedHeaders: ["Content-Type", "Authorization", "Access-Control-Allow-Methods", "Access-Control-Request-Headers"],
    //enablePreflight: true,
     credentials:true,
     methods: ["GET", "POST", "PUT", "DELETE"],
