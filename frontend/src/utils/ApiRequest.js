@@ -1,5 +1,4 @@
  const host = "https://expense-tracker-app-knl1.onrender.com";
-//const host = "https://exquisite-pavlova-ec673d.netlify.app"
 //const host = "http://localhost:5000";
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
